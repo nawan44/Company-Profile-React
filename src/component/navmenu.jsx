@@ -1,49 +1,42 @@
 import React, { useState } from 'react';
 import {
-  Collapse, Navbar, NavbarToggler,
-  NavbarBrand, Nav, NavItem, NavLink, UncontrolledDropdown,
-  DropdownToggle, DropdownMenu, DropdownItem, NavbarText
+  NavbarToggler, Collapse,
+  NavbarBrand,
+  Nav, Navbar,
+  NavItem,
+  NavLink,
 } from 'reactstrap';
 import './css/navmenu.css';
+import Logo from './img/logo.png';
+
 
 const Navmenu = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
 
+
   return (
-    <div className="navmen" >
-      <Navbar color="light" light expand="md">
-        <NavbarBrand href="/" className="logo">Company</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
+    <div>
+      <Navbar light expand="md" className="Navbar">
+        <NavbarBrand href="/"><img src={Logo} /></NavbarBrand>
+        <NavbarToggler onClick={toggle} className="mr-2" />
+        <Collapse isOpen={isOpen} navbar style={{ color: "white" }}>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="#">Menu 1</NavLink>
+              <NavLink style={{ color: "white" }} href="#">About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">Menu 2</NavLink>
+              <NavLink style={{ color: "white" }} href="#">Services</NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Menu 3
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Submenu 3 - 1
-                </DropdownItem>
-                <DropdownItem>
-                  Submenu 3 - 2
-                </DropdownItem>
-
-              </DropdownMenu>
-            </UncontrolledDropdown>
-
             <NavItem>
-              <NavLink href="#">Menu 4</NavLink>
+              <NavLink style={{ color: "white" }} href="#">Work</NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink style={{ color: "white" }} href="#">Contact</NavLink>
+            </NavItem>
+
           </Nav>
-          <NavbarText>Add  Menu</NavbarText>
         </Collapse>
       </Navbar>
     </div>

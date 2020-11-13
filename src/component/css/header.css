@@ -1,0 +1,125 @@
+.header{
+    background-image: url('../img/bg-header.jpg');
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 100px 0;
+    background-attachment: scroll;
+    /* background: no-repeat center center;     
+    background-color: #222;
+    */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover; 
+}
+.intro-content {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+.header img {
+    max-height: 150px;
+    max-width: 150px;
+}
+.img-centered {
+    margin: 0 auto;
+}
+.colored {
+    width: 200px;
+    border-color: #ef4035;
+}
+
+.brand-name {
+    margin-top: 15px;
+    font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 55px;
+}
+
+.brand-name-subtext {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.brand-name {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+.scroll-down {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+.scroll-down .btn {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: normal;
+    color: #fff;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+ .scroll-down .btn:hover {
+    border-color: rgba(255,255,255,.5);
+    outline: 0;
+    color: rgba(255,255,255,.5);
+}
+@media(min-width:768px) {
+    .header {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        background-attachment: scroll;
+    }
+    .header img {
+        max-height: 300px;
+        max-width: 300px;
+    }
+    .intro-content {
+        /* position: absolute; */
+        top: 50%;
+        left: 50%;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        color: #fff;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+    }
+    .brand-name {
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    .brand-name-subtext {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+
+}
+
+@media(min-width:1025px) {
+    .header {
+        background-attachment: fixed;
+    }
+}
+
+@media (min-width: 768px) and (max-width : 1024px) {
+    .header .brand-name {
+    font-size: 50px!important;
+    line-height: 50px;
+    }
+    }

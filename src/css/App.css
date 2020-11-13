@@ -2,7 +2,7 @@
   text-align: center;
 }
 body{
-  background-color: dimgray;
+  background-image: url('../component/img/bg-header.jpg');
 }
 
 .App-logo {
@@ -17,7 +17,7 @@ body{
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url('../component/img/bg-header.jpg');
   min-height: 100vh;
   display: flex;
   flex-direction: column;

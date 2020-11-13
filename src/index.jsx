@@ -11,7 +11,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
     <Navmenu />
     <Header />
     {/* <Carousely /> */}
