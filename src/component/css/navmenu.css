@@ -12,7 +12,7 @@
     background-color: white;
 }
 .Navbar{
-    background-color: aqua;
+    background-color: #222;
 }
 @media (max-width: 768px)  {
     .Navbar{

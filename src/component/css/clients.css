@@ -7,6 +7,12 @@ p{
 .about-carousel .item {
     padding: 15px;
 }
+.h1clients{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
 .about-carousel .item .caption {
     position: absolute;
     top: 50%;

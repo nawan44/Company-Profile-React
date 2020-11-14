@@ -1,6 +1,6 @@
 import Header from './component/header.jsx';
 import Navmenu from './component/navmenu.jsx';
-import Content from './component/content.jsx';
+import About from './component/about.jsx';
 import Footer from './component/footer.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
@@ -11,7 +11,9 @@ import reportWebVitals from './reportWebVitals';
 import Contact from './component/contact.jsx';
 import OurClients from './component/ourClients.jsx';
 import Youtube from './component/youtube.jsx';
-
+import MediaPartner from './component/mediaPartner.jsx';
+import OurWork from './component/ourWork.jsx';
+import WeDo from './component/weDo.jsx';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,7 +22,10 @@ ReactDOM.render(
     {/* <Carousely /> */}
     {/* <App /> */}
 
-    <Content />
+    <About />
+    <WeDo />
+    <MediaPartner />
+    <OurWork />
     <Youtube />
     <OurClients />
     <Contact />

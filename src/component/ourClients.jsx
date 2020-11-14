@@ -12,7 +12,7 @@ class OurClients extends React.Component {
         return (
             <div className="services bg-gray">
                 <div className="container">
-                    <h1 className="h1contact" >OUR CLIENTS</h1>
+                    <h1 className="h1clients" >OUR CLIENTS</h1>
                     <hr className="hrred" />
                     <p >Here are some our clients that we've worked on :</p>
                     <br />

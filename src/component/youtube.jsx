@@ -9,7 +9,7 @@ class Youtube extends React.Component {
         return (
             <div className="youtube" >
                 <div className="container text-center wow fadeIn">
-                    <h1 className="h1client">Youtube</h1>
+                    <h1 className="h1youtube">Youtube</h1>
                     <hr className="hrred" />
                     <p>Here are some youtube video that we've worked on.</p>
                     <br />
