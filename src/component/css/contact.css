@@ -8,6 +8,14 @@
 .h1contact{
     text-align: center;
 }
+
+.FormInput {
+   border: none;
+   background: transparent;
+   outline: none;
+   font-size: 20px;
+ }
+ 
 .btn-full-width {
     width: 100%;
     padding: 50px 0;

@@ -10,13 +10,16 @@ class Contact extends React.Component {
                     <FormGroup>
                         <h1 className="h1contact" >CONTACT US</h1>
                         <hr className="hrred" />
-                        <Label >Please tell us about your next project and we will let you know what we can do to help you.</Label>
+                        <p >Please tell us about your next project and we will let you know what we can do to help you.</p>
                         <br />
-                        <br />
-                        <p><Input type="text" placeholder="Name" /></p>
-                        <p><Input type="text" placeholder="Email Address" /></p>
-                        <p><Input type="text" placeholder="Phone Number" /></p>
-                        <p><Input type="textarea" placeholder="Message" /></p>
+                        <p><Input className="FormInput" type="text" placeholder="Name" /></p>
+                        <hr />
+                        <p><Input className="FormInput" type="text" placeholder="Email Address" /></p>
+                        <hr />
+                        <p><Input className="FormInput" type="text" placeholder="Phone Number" /></p>
+                        <hr />
+                        <p><Input className="FormInput" type="textarea" placeholder="Message" /></p>
+                        <hr />
                         <Button color="info" block>Send</Button>
                     </FormGroup>
 

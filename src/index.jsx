@@ -9,14 +9,17 @@ import './css/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Contact from './component/contact.jsx';
+import OurClients from './component/ourClients.jsx';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <Navmenu />
-    <Header />
+    {/* <Header /> */}
     {/* <Carousely /> */}
     {/* <App /> */}
     <Content />
+    <OurClients />
     <Contact />
     <Footer />
   </React.StrictMode>,
