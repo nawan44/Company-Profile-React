@@ -11,7 +11,6 @@ class OurClients extends React.Component {
     render() {
         return (
             <div className="services bg-gray">
-
                 <div className="container">
                     <h1 className="h1contact" >OUR CLIENTS</h1>
                     <hr className="hrred" />

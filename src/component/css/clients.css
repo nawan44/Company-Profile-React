@@ -7,7 +7,6 @@ p{
 .about-carousel .item {
     padding: 15px;
 }
-
 .about-carousel .item .caption {
     position: absolute;
     top: 50%;
@@ -30,7 +29,6 @@ p{
     background-size: cover;
     -o-background-size: cover;
 }
-
 .item {
     padding: 50px 55px;
     text-align: center;
@@ -41,8 +39,8 @@ p{
     background-size: cover;
     -o-background-size: cover;
 }
-
 .img-responsive{
     float: left;
     width: 30%;
 }
+

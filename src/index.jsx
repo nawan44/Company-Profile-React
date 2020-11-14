@@ -10,6 +10,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Contact from './component/contact.jsx';
 import OurClients from './component/ourClients.jsx';
+import Youtube from './component/youtube.jsx';
 
 
 ReactDOM.render(
@@ -18,7 +19,9 @@ ReactDOM.render(
     {/* <Header /> */}
     {/* <Carousely /> */}
     {/* <App /> */}
+
     <Content />
+    <Youtube />
     <OurClients />
     <Contact />
     <Footer />
