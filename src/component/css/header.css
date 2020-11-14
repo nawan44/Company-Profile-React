@@ -1,7 +1,9 @@
 .header{
-    background-image: url('../img/bg-header.jpg');
+    /* background-image: url('../img/bg-header.jpg'); */
+    background-color: chartreuse;
     display: block;
-    position: relative;
+    /* position: relative; */
+    margin: 0 auto;
     width: auto;
     height: auto;
     padding: 100px 0;
@@ -15,7 +17,9 @@
     -o-background-size: cover; 
 }
 .intro-content {
-    position: relative;
+    /* position: relative; */
+    margin: 0 auto;
+background-color: burlywood;
     text-align: center;
     color: #fff;
 }
@@ -91,7 +95,7 @@
         top: 50%;
         left: 50%;
         width: 50%;
-        margin: auto;
+        margin: 0 auto;
         text-align: center;
         color: #fff;
         -webkit-transform: translate(-50%,-50%);
@@ -110,12 +114,12 @@
 
 
 }
-
+/* 
 @media(min-width:1025px) {
     .header {
         background-attachment: fixed;
     }
-}
+} */
 
 @media (min-width: 768px) and (max-width : 1024px) {
     .header .brand-name {
