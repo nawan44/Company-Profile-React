@@ -6,8 +6,10 @@ class Header extends React.Component {
     render() {
         return (
             <div className="header">
-                <div className="intro-content" >
-                    <img src={Profile} className="img-responsive img-centered" />
+                <div className="head">
+                    <div className="img-container">
+                        <img src={Profile} className=" img-centered" class="center" />
+                    </div>
                     <div className="brand-name">RSmartComm</div>
                     <hr className="colored" />
                     <hr className="colored" />

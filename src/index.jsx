@@ -18,7 +18,7 @@ import WeDo from './component/weDo.jsx';
 ReactDOM.render(
   <React.StrictMode>
     <Navmenu />
-    {/* <Header /> */}
+    <Header />
     {/* <Carousely /> */}
     {/* <App /> */}
 
