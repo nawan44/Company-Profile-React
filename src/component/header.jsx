@@ -2,7 +2,9 @@ import React from 'react';
 import './css/header.css';
 import Profile from './img/profile.png';
 
+import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
 class Header extends React.Component {
+
     render() {
         return (
             <div className="header">
@@ -16,11 +18,14 @@ class Header extends React.Component {
 
                     <div className="brand-name-subtext">Reach Your Goal with Smart Communication</div>
                 </div>
-                <div className="scroll-down">
-                    <a class="btn" href="#about"><i class="fa fa-angle-down fa-fw"></i></a>
+                <div className="arrow">
+                    <a className="btn" href="#about">
+                        <ArrowDropDownCircleIcon className="arrowDown" color="primary" style={{ fontSize: 100 }} />
+                    </a>
                 </div>
 
-            </div>
+
+            </div >
         )
     }
 }

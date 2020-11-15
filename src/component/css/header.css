@@ -15,8 +15,9 @@
 
 .head{
     width: 500px;
-    height: 500px;
+    height: 550px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .img-container {
@@ -28,7 +29,15 @@
     width: 200px;
     border-color: #ef4035;
 }
-
+.arrow{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.arrowDown{
+    padding-bottom: 50px;
+}
 .brand-name {
     text-align: center;
     margin-top: 15px;
@@ -89,18 +98,7 @@
         max-height: 300px;
         max-width: 300px;
     }
-    .intro-content {
-        /* position: absolute; */
-        top: 50%;
-        left: 50%;
-        width: 50%;
-        margin: 0 auto;
-        text-align: center;
-        color: #fff;
-        -webkit-transform: translate(-50%,-50%);
-        -ms-transform: translate(-50%,-50%);
-        transform: translate(-50%,-50%);
-    }
+
     .brand-name {
         font-size: 80px;
         line-height: 80px;
@@ -111,14 +109,13 @@
         line-height: 30px;
     }
 
-
 }
-/* 
+
 @media(min-width:1025px) {
     .header {
         background-attachment: fixed;
     }
-} */
+}
 
 @media (min-width: 768px) and (max-width : 1024px) {
     .header .brand-name {

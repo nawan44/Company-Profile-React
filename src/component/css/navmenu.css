@@ -6,17 +6,20 @@
 .Navlink{
     color: white;
 }
-
-
+.Nav{
+    width: 100%;
+    height: auto;
+}
 .navbar-toggler-icon{
     background-color: white;
 }
 .Navbar{
     background-image: url('../img/bg-header.jpg');
+opacity: 5;
 }
 @media (max-width: 768px)  {
     .Navbar{
-        background-color: black;
+        background-color: #C0C0C0;
     }
     }
 

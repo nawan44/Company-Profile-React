@@ -5,7 +5,7 @@ import './css/contact.css';
 class Contact extends React.Component {
     render() {
         return (
-            <div>
+            <div id="contact">
                 <Form className="contactus">
                     <FormGroup>
                         <h1 className="h1contact" >CONTACT US</h1>

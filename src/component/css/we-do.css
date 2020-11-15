@@ -8,7 +8,20 @@
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
-
+.liwe{
+    text-align: left;
+    font-size: 20px;
+}
+.media-heading{
+    text-align: left;
+}
+.hrred{
+    border: 2px double red;
+    width: 200px;
+}
+.iconwe{
+    margin-right: 30px;
+}
 section.services {
     padding: 100px 0;
     color: #fff;

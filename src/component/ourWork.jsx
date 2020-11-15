@@ -12,7 +12,7 @@ import port6 from './img/portfolio/port6.jpg';
 class OurWork extends React.Component {
     render() {
         return (
-            <div >
+            <div id="work" >
                 <section id="work" className="bg-gray" >
                     <div className="container text-center wow fadeIn">
                         <h1 className="h1work">Our Work</h1>
