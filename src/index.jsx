@@ -20,7 +20,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Navmenu />
     <Header />
-    {/* <App /> */}
+    <App />
     <About />
     <WeDo />
     <MediaPartner />
