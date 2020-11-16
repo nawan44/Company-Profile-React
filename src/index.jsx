@@ -14,18 +14,18 @@ import Youtube from './component/youtube.jsx';
 import MediaPartner from './component/mediaPartner.jsx';
 import OurWork from './component/ourWork.jsx';
 import WeDo from './component/weDo.jsx';
+import Carousely from './component/carousel.jsx';
 
 ReactDOM.render(
   <React.StrictMode>
     <Navmenu />
     <Header />
-    {/* <Carousely /> */}
     {/* <App /> */}
-
     <About />
     <WeDo />
     <MediaPartner />
-    <OurWork />
+    {/* <OurWork /> */}
+    <Carousely />
     <Youtube />
     <OurClients />
     <Contact />

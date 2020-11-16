@@ -1,0 +1,14 @@
+.carousell{
+    width: 100%;
+    height: 700px;
+    background-image: url('../img/portfolio/bg-1.jpg')
+
+}
+.img-carousel{
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+}
+.carousell img{
+    margin: 0 auto;
+}
