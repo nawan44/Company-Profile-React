@@ -3,7 +3,7 @@ import './css/entry-partner.css';
 import { Table } from 'reactstrap';
 import './css/admin.css';
 import SideBar from './sideBar';
-import { Col, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 
 class EntryPartner extends React.Component {
