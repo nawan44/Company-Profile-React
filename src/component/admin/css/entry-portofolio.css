@@ -1,0 +1,11 @@
+.entry{
+    width: 100%;
+    height: auto;
+    background-color: antiquewhite;
+}
+.entry-content{
+    float: left;
+    width: 70%;
+    height: 700px;
+    background-color: chartreuse;
+}

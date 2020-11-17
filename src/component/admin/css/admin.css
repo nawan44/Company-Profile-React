@@ -1,9 +1,12 @@
-.container {
-    width: 100%;
+.container-admin {
+background-color: bisque;
 }
+
 .admin{
-    width: 100%;
+    width: 70%;
+    height: 700px;
     background-color: cornflowerblue;
+    float: left;
 }
 .login{
     background-color: cornflowerblue;
