@@ -20,3 +20,22 @@ background-color: bisque;
     width: 20%;
     float: left;
 }
+.btn-edit{
+background-color: blue;
+margin-right: 10px;
+}
+.btn-delete{
+    background-color: red;
+}
+.form{
+    padding: 10px;
+    background-color: grey;
+
+}
+.input-file{
+    width: 70px;
+    background-color: gray;
+}
+.btn-input{
+margin-top: 20px;
+}

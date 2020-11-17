@@ -3,6 +3,7 @@ import './css/entry-partner.css';
 import { Table } from 'reactstrap';
 import './css/admin.css';
 import SideBar from './sideBar';
+import { Col, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
 
 class EntryPartner extends React.Component {
@@ -11,19 +12,31 @@ class EntryPartner extends React.Component {
             <div className="entry">
                 <SideBar />
                 <div className="admin">
-                    <h2 className="h2admin">MEDIA PARTNER</h2>
+                    <h2 className="h2admin">LOGO MEDIA PARTNER</h2>
+                    <Form className="form">
+                        <FormGroup>
+                            <br />
+                            <fieldset class="border p-2">
+                                <legend class="w-auto">Input Logo Media Partner</legend>
+
+                                <Label>Nama Partner :</Label>
+                                <Input type="text" />
+                                <br />
+                                <Label>Logo Partner :</Label>
+                                <Input type="file" className="input-file" />
+                                <Button className="btn-input" color="info">Input</Button>
+                            </fieldset>
+                            <br />
+                        </FormGroup>
+                    </Form>
+                    <br />
                     <Table size="sm">
                         <thead>
                             <tr>
                                 <th>#</th>
-                                <th>Nama</th>
-                                <th>No Hp</th>
-                                <th>Alamat Pengiriman</th>
-                                <th>Paket Pesanan</th>
-                                <th>Tanggal Pengiriman</th>
-                                <th>Jam Pengiriman</th>
-                                <th>Status Bayar</th>
-                                <th>Status Pesanan</th>
+                                <th>Nama Partner</th>
+                                <th>Logo Partner</th>
+                                <th>Action</th>
 
                             </tr>
                         </thead>
@@ -32,30 +45,29 @@ class EntryPartner extends React.Component {
                                 <th scope="row">1</th>
                                 <td>Rachmat</td>
                                 <td>086363716713</td>
-                                <td>Bekasi</td>
-                                <td>Paket 1</td>
-                                <td>15 Oktober 2020</td>
-                                <td>13.00</td>
-                                <td>Lunas</td>
-                                <td>Delivery</td>
+                                <td>
+                                    <Button className="btn-edit">Edit</Button>
+                                    <Button className="btn-delete">Delete</Button>
+                                </td>
 
                             </tr>
                             <tr>
                                 <th scope="row">2</th>
                                 <td>Mark</td>
                                 <td>086363716713</td>
-                                <td>Jakarta</td>
-                                <td>Paket 1</td>
-                                <td>6 April 2020</td>
-                                <td>19.00</td>
-                                <td>Belum dibuat</td>
-                                <td>Belum Bayar</td>
+                                <td>
+                                    <Button className="btn-edit">Edit</Button>
+                                    <Button className="btn-delete">Delete</Button>
+                                </td>
                             </tr>
                             <tr>
                                 <th scope="row">3</th>
                                 <td>Larry</td>
                                 <td>the Bird</td>
-                                <td>@twitter</td>
+                                <td>
+                                    <Button className="btn-edit">Edit</Button>
+                                    <Button className="btn-delete">Delete</Button>
+                                </td>
                             </tr>
                         </tbody>
                     </Table>
