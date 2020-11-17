@@ -1,10 +1,6 @@
-.container{
-    width: 300px;
-    margin : 0 auto;
 
-}
 .sidebar{
-    width: 30%;
+    width: 20%;
     height: auto;
 }
 .sidebar ul{
@@ -15,7 +11,7 @@
 }
 .sidebar li a{
     display: block;
-    background-color: yellowgreen;
+    background-color: blueviolet;
     padding: 10px;
     text-align: center;
     color: black;
@@ -29,4 +25,18 @@
 .sidebar li a:hover{
     background-color: violet;
     color: black;
+}
+@media(max-width : 1700px){
+    .sidebar{
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+    .sidebar ul{
+        list-style: none;
+        padding: 30px;
+        margin: 0;
+        width: 100%;
+    }
+
 }

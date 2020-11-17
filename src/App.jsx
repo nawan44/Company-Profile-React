@@ -7,6 +7,7 @@ import Login from './component/admin/login';
 import EntryPartner from './component/admin/entryPartner';
 import EntryPortofolio from './component/admin/entryPortofolio';
 import EntryYoutube from './component/admin/entryYoutube';
+import EntryClient from './component/admin/entryClient';
 
 import DataPt from './component/admin/dataPt';
 
@@ -26,6 +27,7 @@ export default class App extends Component {
           <Route path='/entry-partner' component={EntryPartner} />
           <Route path='/entry-portofolio' component={EntryPortofolio} />
           <Route path='/entry-youtube' component={EntryYoutube} />
+          <Route path='/entry-client' component={EntryClient} />
 
 
 

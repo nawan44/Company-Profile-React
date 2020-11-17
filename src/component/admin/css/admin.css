@@ -1,12 +1,24 @@
 .container-admin {
 background-color: bisque;
+height: auto;
+width: 100%;
 }
+.rule-admin{
+    background-color: antiquewhite;
+    margin: 20px;
+    width: 150%;
 
+}
+h1{
+    text-align: center;
+}
 .admin{
-    width: 70%;
+    margin-bottom: 50px;
+    width: 60%;
+    background-color: darkgray;
     height: 1250px;
-    background-color: cornflowerblue;
     float: left;
+    padding: 20px;
 }
 .login{
     background-color: cornflowerblue;
@@ -38,4 +50,25 @@ margin-right: 10px;
 }
 .btn-input{
 margin-top: 20px;
+}
+
+
+@media(max-width : 1700px){
+    .container-admin {
+        background-color: red;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        }
+        .admin{
+            width: 100%;
+            background-color: darkgray;
+            height: auto;
+            padding: 20px;
+        }
+        .rule-admin{
+            background-color: antiquewhite;
+            margin: 20px;
+            width: 100%;
+        }
 }
