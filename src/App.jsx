@@ -6,6 +6,7 @@ import Index from './component/admin/index';
 import Login from './component/admin/login';
 import EntryPartner from './component/admin/entryPartner';
 import EntryPortofolio from './component/admin/entryPortofolio';
+import DataPt from './component/admin/dataPt';
 
 
 export default class App extends Component {
@@ -19,6 +20,7 @@ export default class App extends Component {
           <Route path='/admin' component={Index} />
           <Route path='/login' component={Login} />
 
+          <Route path='/data-pt' component={DataPt} />
           <Route path='/entry-partner' component={EntryPartner} />
           <Route path='/entry-portofolio' component={EntryPortofolio} />
 
