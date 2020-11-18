@@ -8,9 +8,10 @@ import InputPartner from './component/admin/inputPartner';
 import InputPortofolio from './component/admin/inputPortofolio';
 import InputYoutube from './component/admin/inputYoutube';
 import InputClient from './component/admin/inputClient';
-
+import InputWeDo from './component/admin/inputWeDo.jsx';
 import DataPt from './component/admin/dataPt';
 import InputAbout from './component/admin/inputAbout';
+
 
 
 export default class App extends Component {
@@ -26,6 +27,7 @@ export default class App extends Component {
 
           <Route path='/data-pt' component={DataPt} />
           <Route path='/input-about' component={InputAbout} />
+          <Route path='/input-wedo' component={InputWeDo} />
 
           <Route path='/input-partner' component={InputPartner} />
           <Route path='/input-portofolio' component={InputPortofolio} />
