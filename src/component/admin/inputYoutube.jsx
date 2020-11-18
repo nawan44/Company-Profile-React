@@ -42,9 +42,9 @@ class InputYoutube extends React.Component {
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="row">1</th>
-                                <td>Rachmat</td>
-                                <td>086363716713</td>
+                                <th scope="row" className="td-id">1</th>
+                                <td className="td-produk">Kiehl’s & Solange Knowles: 10th Anniversary Partnership</td>
+                                <td className="td-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/laTt5qozFnE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
                                 <td>
                                     <Button className="btn-edit">Edit</Button>
                                     <Button className="btn-delete">Delete</Button>
@@ -52,18 +52,18 @@ class InputYoutube extends React.Component {
 
                             </tr>
                             <tr>
-                                <th scope="row">2</th>
-                                <td>Mark</td>
-                                <td>086363716713</td>
+                                <th scope="row" className="td-id">2</th>
+                                <td className="td-produk">Indonesia Creative Week 2014</td>
+                                <td className="td-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/bccKeuJpkjs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
                                 <td>
                                     <Button className="btn-edit">Edit</Button>
                                     <Button className="btn-delete">Delete</Button>
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">3</th>
-                                <td>Larry</td>
-                                <td>the Bird</td>
+                                <th scope="row" className="td-id">3</th>
+                                <td className="td-produk">Pacific Royale Airways - Fokker F50s with refreshingly fresh livery</td>
+                                <td className="td-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/JgmhiQr8-Kk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
                                 <td>
                                     <Button className="btn-edit">Edit</Button>
                                     <Button className="btn-delete">Delete</Button>

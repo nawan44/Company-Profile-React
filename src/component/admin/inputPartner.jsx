@@ -4,6 +4,9 @@ import { Table } from 'reactstrap';
 import './css/admin.css';
 import SideBar from './sideBar';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
+import m1 from '../img/people/1.png';
+import m2 from '../img/people/2.png';
+import m3 from '../img/people/3.png';
 
 
 class InputPartner extends React.Component {
@@ -37,14 +40,13 @@ class InputPartner extends React.Component {
                                 <th>Nama Partner</th>
                                 <th>Logo Partner</th>
                                 <th>Action</th>
-
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <th scope="row">1</th>
-                                <td>Rachmat</td>
-                                <td>086363716713</td>
+                                <td className="td-produk">Antv, Kompas Tv, SCTV, Global Tv, Hard Rock FM, Radio Kampus ITB</td>
+                                <td><img src={m1} /></td>
                                 <td>
                                     <Button className="btn-edit">Edit</Button>
                                     <Button className="btn-delete">Delete</Button>
@@ -53,8 +55,8 @@ class InputPartner extends React.Component {
                             </tr>
                             <tr>
                                 <th scope="row">2</th>
-                                <td>Mark</td>
-                                <td>086363716713</td>
+                                <td className="td-produk">rtv, woman radio, mustang FM, Trijaya FM, 99ERS, OZ Radio Jakarta</td>
+                                <td><img src={m2} /></td>
                                 <td>
                                     <Button className="btn-edit">Edit</Button>
                                     <Button className="btn-delete">Delete</Button>
@@ -62,8 +64,8 @@ class InputPartner extends React.Component {
                             </tr>
                             <tr>
                                 <th scope="row">3</th>
-                                <td>Larry</td>
-                                <td>the Bird</td>
+                                <td className="td-produk">106.1FM Gadis, Cosmo Girls, Sindonews, Kapanlagi.com, Kampus Update</td>
+                                <td><img src={m3} /></td>
                                 <td>
                                     <Button className="btn-edit">Edit</Button>
                                     <Button className="btn-delete">Delete</Button>

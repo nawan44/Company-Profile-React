@@ -27,7 +27,7 @@ h1{
     margin-bottom: 50px;
     width: 60%;
     background-color: darkgray;
-    height: 1250px;
+    height: auto;
     float: left;
     padding: 20px;
 }
@@ -62,8 +62,23 @@ margin-right: 10px;
 .btn-input{
 margin-top: 20px;
 }
-
-
+.td-id{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.td-produk{
+    align: center;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.td-youtube{
+    width: 50px;
+}
+td img{
+    width: 50%;
+}
 @media(max-width : 1700px){
     .container-admin {
         background-color: red;

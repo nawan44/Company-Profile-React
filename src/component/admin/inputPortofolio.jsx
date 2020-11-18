@@ -3,7 +3,9 @@ import './css/input-portofolio.css';
 import { Table } from 'reactstrap';
 import SideBar from './sideBar';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
-
+import port1 from '../img/portfolio/port1.jpg';
+import port2 from '../img/portfolio/port2.jpg';
+import port3 from '../img/portfolio/port3.jpg';
 import './css/admin.css';
 
 class InputPortofolio extends React.Component {
@@ -52,10 +54,10 @@ class InputPortofolio extends React.Component {
                         <tbody>
                             <tr>
                                 <th scope="row">1</th>
-                                <td>Rachmat</td>
-                                <td>086363716713</td>
-                                <td>086363716713</td>
-                                <td>086363716713</td>
+                                <td>Malam Minggu Miko Movie</td>
+                                <td>Sponsorship, Media Partner, Events, Digital Campaign, Brands Activities</td>
+                                <td>Berniaga.com Kacang Garuda, Hotels of Roadshow</td>
+                                <td> <img src={port1} /></td>
 
                                 <td>
                                     <Button className="btn-edit">Edit</Button>
@@ -65,10 +67,10 @@ class InputPortofolio extends React.Component {
                             </tr>
                             <tr>
                                 <th scope="row">2</th>
-                                <td>Mark</td>
-                                <td>086363716713</td>
-                                <td>086363716713</td>
-                                <td>086363716713</td>
+                                <td>Janji Hati</td>
+                                <td>Sponsorship, Media Partner, Events, Media Placement, Digital Campaign, Brands Activities</td>
+                                <td>Yamaha, Pejaten Village, Labels, Restaurants</td>
+                                <td><img src={port2} /></td>
 
                                 <td>
                                     <Button className="btn-edit">Edit</Button>
@@ -77,10 +79,10 @@ class InputPortofolio extends React.Component {
                             </tr>
                             <tr>
                                 <th scope="row">3</th>
-                                <td>Larry</td>
-                                <td>the Bird</td>
-                                <td>the Bird</td>
-                                <td>the Bird</td>
+                                <td>Stay With Me</td>
+                                <td>Sponsorship, Media Placement, Digital Campaign, Brands Activities</td>
+                                <td>Huawei, Mercy, Jaguar, Metrox</td>
+                                <td><img src={port3} /></td>
 
                                 <td>
                                     <Button className="btn-edit">Edit</Button>

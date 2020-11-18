@@ -4,7 +4,9 @@ import { Table } from 'reactstrap';
 import './css/admin.css';
 import SideBar from './sideBar';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
-
+import c1 from '../img/client-logos/c1.png';
+import c2 from '../img/client-logos/c2.png';
+import c3 from '../img/client-logos/c3.png';
 
 class InputClient extends React.Component {
     render() {
@@ -42,8 +44,8 @@ class InputClient extends React.Component {
                         <tbody>
                             <tr>
                                 <th scope="row">1</th>
-                                <td>Rachmat</td>
-                                <td>086363716713</td>
+                                <td className="td-produk">EU Indonesia Business Network, Jaguar, Land Rover, The Stones</td>
+                                <td><img src={c1} /></td>
                                 <td>
                                     <Button className="btn-edit">Edit</Button>
                                     <Button className="btn-delete">Delete</Button>
@@ -52,8 +54,8 @@ class InputClient extends React.Component {
                             </tr>
                             <tr>
                                 <th scope="row">2</th>
-                                <td>Mark</td>
-                                <td>086363716713</td>
+                                <td className="td-produk">Appeton, Huawei, L'Oreal</td>
+                                <td><img src={c2} /></td>
                                 <td>
                                     <Button className="btn-edit">Edit</Button>
                                     <Button className="btn-delete">Delete</Button>
@@ -61,8 +63,8 @@ class InputClient extends React.Component {
                             </tr>
                             <tr>
                                 <th scope="row">3</th>
-                                <td>Larry</td>
-                                <td>the Bird</td>
+                                <td className="td-produk">glow Rumah Terindah</td>
+                                <td><img src={c3} /></td>
                                 <td>
                                     <Button className="btn-edit">Edit</Button>
                                     <Button className="btn-delete">Delete</Button>
