@@ -20,7 +20,7 @@ class EntryClient extends React.Component {
                                 <legend class="w-auto">Input Logo Client</legend>
 
                                 <Label>Nama Client :</Label>
-                                <Input type="text" />
+                                <Input placeholder="ABC" type="text" />
                                 <br />
                                 <Label>Logo Client :</Label>
                                 <Input type="file" className="input-file" />

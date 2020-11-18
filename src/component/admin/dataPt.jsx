@@ -20,35 +20,32 @@ class DataPt extends React.Component {
                                 <legend class="w-auto">Edit Data Perusahaan</legend>
 
                                 <Label>Nama Perusahaan :</Label>
-                                <Input type="text" />
+                                <Input placeholder="Rsmartcomm" type="text" />
                                 <br />
                                 <Label>Alamat Perusahaan :</Label>
-                                <Input type="text" />
+                                <Input placeholder="Jl. Tebet Timur Dalam I J No 24 Jakarta Selatan" type="text" />
                                 <br />
                                 <Label>Email Perusahaan :</Label>
-                                <Input type="text" />
+                                <Input placeholder="info@rsmartcomm.com" type="text" />
                                 <br />
                                 <Label>No Telpon Perusahaan :</Label>
-                                <Input type="text" />
-                                <br />
-                                <Label>Email Perusahaan :</Label>
-                                <Input type="text" />
+                                <Input placeholder="08179801323" type="text" />
                                 <br />
                                 <Label>Logo Perusahaan :</Label>
-                                <Input type="text" />
+                                <Input type="file" />
                                 <br />
                                 <hr />
                                 <fieldset class="border p-2">
                                     <legend class="w-auto">Media Sosial</legend>
                                     <br />
                                     <Label>Facebook :</Label>
-                                    <Input type="url" />
+                                    <Input placeholder="https://www.facebook.com/" type="url" />
                                     <br />
                                     <Label>Twitter :</Label>
-                                    <Input type="url" />
+                                    <Input placeholder="https://www.twitter.com/" type="url" />
                                     <br />
                                     <Label>Linkedin :</Label>
-                                    <Input type="url" />
+                                    <Input placeholder="https://www.linkedin.com/" type="url" />
 
                                 </fieldset>
                                 <br />

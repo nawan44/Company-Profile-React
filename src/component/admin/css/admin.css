@@ -1,13 +1,24 @@
 .container-admin {
-background-color: bisque;
+/* background-color: bisque; */
 height: auto;
 width: 100%;
 }
 .rule-admin{
-    background-color: antiquewhite;
+    background-color: darkgray;
     margin: 20px;
     width: 150%;
+    padding: 20px;
 
+}
+.rule-posting{
+    width: 30%;
+    margin: 0 auto;
+}
+.rule-posting li{
+    text-align: left;
+}
+.hr-admin{
+    border: solid 3px chartreuse;
 }
 h1{
     text-align: center;
@@ -67,8 +78,9 @@ margin-top: 20px;
             padding: 20px;
         }
         .rule-admin{
-            background-color: antiquewhite;
+            background-color: grey;
             margin: 20px;
             width: 100%;
+            padding: 20px;
         }
 }

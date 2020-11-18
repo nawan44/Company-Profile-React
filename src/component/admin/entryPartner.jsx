@@ -20,7 +20,7 @@ class EntryPartner extends React.Component {
                                 <legend class="w-auto">Input Logo Media Partner</legend>
 
                                 <Label>Nama Partner :</Label>
-                                <Input type="text" />
+                                <Input placeholder="ABC" type="text" />
                                 <br />
                                 <Label>Logo Partner :</Label>
                                 <Input type="file" className="input-file" />

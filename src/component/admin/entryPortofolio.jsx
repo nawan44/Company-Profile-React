@@ -20,13 +20,13 @@ class EntryPortofolio extends React.Component {
                                 <legend class="w-auto">Input Portofolio</legend>
 
                                 <Label>Nama Produk :</Label>
-                                <Input type="text" />
+                                <Input placeholder="ABC" type="text" />
                                 <br />
                                 <Label>Pekerjaan :</Label>
-                                <Input type="text" />
+                                <Input placeholder="Sponsorship" type="text" />
                                 <br />
                                 <Label>Detail Pekerjaan:</Label>
-                                <Input type="text" />
+                                <Input placeholder="abc.com" type="text" />
                                 <br />
 
                                 <Label>Banner Portofolio :</Label>

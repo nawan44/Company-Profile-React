@@ -20,10 +20,10 @@ class EntryYoutube extends React.Component {
                                 <legend class="w-auto">Input Video Youtube</legend>
 
                                 <Label>Nama Produk :</Label>
-                                <Input type="text" />
+                                <Input placeholder="ABC" type="text" />
                                 <br />
                                 <Label>Link Youtube :</Label>
-                                <Input type="url" className="text" />
+                                <Input placeholder="<iframe width=560 height=315 src=https://www.youtube.com/embed/aJOTlE1K90k frameborder=0 allow=accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture allowfullscreen></iframe>" type="url" className="text" />
                                 <Button className="btn-input" color="info">Input</Button>
                             </fieldset>
                             <br />
