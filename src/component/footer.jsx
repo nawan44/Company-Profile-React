@@ -5,7 +5,7 @@ class Footer extends React.Component {
     render() {
         return (
             <div className="footer" >
-                <div className="container text-center">
+                <div className="container ">
                     <div className="row">
                         <div className="col-md-4 contact-details">
                             <h4><i className="fa fa-phone"></i> Call</h4>
@@ -13,7 +13,7 @@ class Footer extends React.Component {
                         </div>
                         <div className="col-md-4 contact-details">
                             <h4><i className="fa fa-map-marker"></i> Visit</h4>
-                            <p>Jl. Tebet Timur Dalam I J No 24  <br />Jakarta Selatan</p>
+                            <p> Jl. Tebet Timur Dalam I J No 24  <br />Jakarta Selatan</p>
                         </div>
                         <div className="col-md-4 contact-details">
                             <h4><i className="fa fa-envelope"></i> Email</h4>

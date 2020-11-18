@@ -11,7 +11,6 @@ ReactDOM.render(
   <React.StrictMode>
     <Navmenu />
     <App />
-    {/* <OurWork /> */}
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')
