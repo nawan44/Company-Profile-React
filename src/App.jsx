@@ -4,12 +4,13 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './component/home.jsx';
 import Index from './component/admin/index';
 import Login from './component/admin/login';
-import EntryPartner from './component/admin/entryPartner';
-import EntryPortofolio from './component/admin/entryPortofolio';
-import EntryYoutube from './component/admin/entryYoutube';
-import EntryClient from './component/admin/entryClient';
+import InputPartner from './component/admin/inputPartner';
+import InputPortofolio from './component/admin/inputPortofolio';
+import InputYoutube from './component/admin/inputYoutube';
+import InputClient from './component/admin/inputClient';
 
 import DataPt from './component/admin/dataPt';
+import InputAbout from './component/admin/inputAbout';
 
 
 export default class App extends Component {
@@ -24,10 +25,12 @@ export default class App extends Component {
           <Route path='/login' component={Login} />
 
           <Route path='/data-pt' component={DataPt} />
-          <Route path='/entry-partner' component={EntryPartner} />
-          <Route path='/entry-portofolio' component={EntryPortofolio} />
-          <Route path='/entry-youtube' component={EntryYoutube} />
-          <Route path='/entry-client' component={EntryClient} />
+          <Route path='/input-about' component={InputAbout} />
+
+          <Route path='/input-partner' component={InputPartner} />
+          <Route path='/input-portofolio' component={InputPortofolio} />
+          <Route path='/input-youtube' component={InputYoutube} />
+          <Route path='/input-client' component={InputClient} />
 
 
 

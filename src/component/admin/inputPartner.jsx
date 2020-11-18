@@ -1,15 +1,15 @@
 import React from 'react';
-import './css/entry-partner.css';
+import './css/input-partner.css';
 import { Table } from 'reactstrap';
 import './css/admin.css';
 import SideBar from './sideBar';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 
-class EntryPartner extends React.Component {
+class InputPartner extends React.Component {
     render() {
         return (
-            <div className="entry">
+            <div className="input">
                 <SideBar />
                 <div className="admin">
                     <h2 className="h2admin">LOGO MEDIA PARTNER</h2>
@@ -77,4 +77,4 @@ class EntryPartner extends React.Component {
     }
 
 }
-export default EntryPartner;
+export default InputPartner;

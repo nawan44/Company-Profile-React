@@ -1,15 +1,14 @@
 import React from 'react';
-import './css/entry-partner.css';
-import { Table } from 'reactstrap';
+import './css/input-partner.css';
 import './css/admin.css';
 import SideBar from './sideBar';
-import { Col, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 
 class DataPt extends React.Component {
     render() {
         return (
-            <div className="entry">
+            <div className="input">
                 <SideBar />
                 <div className="admin">
                     <h2 className="h2admin">Data Perusahaan</h2>

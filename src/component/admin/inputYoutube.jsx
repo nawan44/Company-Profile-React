@@ -1,29 +1,29 @@
 import React from 'react';
-import './css/entry-partner.css';
+import './css/input-partner.css';
 import { Table } from 'reactstrap';
 import './css/admin.css';
 import SideBar from './sideBar';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 
-class EntryClient extends React.Component {
+class InputYoutube extends React.Component {
     render() {
         return (
-            <div className="entry">
+            <div className="input">
                 <SideBar />
                 <div className="admin">
-                    <h2 className="h2admin">LOGO CLIENT</h2>
+                    <h2 className="h2admin">PORTOFOLIO YOUTUBE</h2>
                     <Form className="form">
                         <FormGroup>
                             <br />
                             <fieldset class="border p-2">
-                                <legend class="w-auto">Input Logo Client</legend>
+                                <legend class="w-auto">Input Video Youtube</legend>
 
-                                <Label>Nama Client :</Label>
+                                <Label>Nama Produk :</Label>
                                 <Input placeholder="ABC" type="text" />
                                 <br />
-                                <Label>Logo Client :</Label>
-                                <Input type="file" className="input-file" />
+                                <Label>Link Youtube :</Label>
+                                <Input placeholder="<iframe width=560 height=315 src=https://www.youtube.com/embed/aJOTlE1K90k frameborder=0 allow=accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture allowfullscreen></iframe>" type="url" className="text" />
                                 <Button className="btn-input" color="info">Input</Button>
                             </fieldset>
                             <br />
@@ -34,9 +34,10 @@ class EntryClient extends React.Component {
                         <thead>
                             <tr>
                                 <th>#</th>
-                                <th>Nama Client</th>
-                                <th>Logo Client</th>
+                                <th>Nama Produk</th>
+                                <th>Link Youtube</th>
                                 <th>Action</th>
+
                             </tr>
                         </thead>
                         <tbody>
@@ -76,4 +77,4 @@ class EntryClient extends React.Component {
     }
 
 }
-export default EntryClient;
+export default InputYoutube;
