@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {
   NavbarToggler, Collapse, NavbarBrand,
-  Nav, Navbar, NavItem, NavLink
+  Nav, Navbar, NavItem, NavLink, NavbarText
 } from 'reactstrap';
 import './css/navmenu.css';
 import Logo from './img/logo.png';
@@ -33,6 +33,9 @@ const Navmenu = (props) => {
             </NavItem>
 
           </Nav>
+          <NavbarText>
+            <NavLink style={{ color: "white" }} className="admin-super" href="/admin">Admin</NavLink>
+          </NavbarText>
         </Collapse>
       </Navbar>
     </div>
