@@ -13,6 +13,8 @@ import {
     CarouselIndicators,
     CarouselCaption
 } from 'reactstrap';
+import { Table } from 'reactstrap';
+
 
 const items = [
     {
@@ -102,5 +104,3 @@ const Carousely = (props) => {
 }
 
 export default Carousely;
-
-

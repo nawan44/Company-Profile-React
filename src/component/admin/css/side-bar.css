@@ -25,7 +25,9 @@
 }
 .sidebar li a:hover{
     text-align:right;
-    background-color: yellow;
+    background: #fffc00; 
+    background: -webkit-linear-gradient(to right, #fffc00, #ffffff); 
+    background: linear-gradient(to right, #fffc00, #ffffff);   
     color: black;
 }
 @media(max-width : 1700px){

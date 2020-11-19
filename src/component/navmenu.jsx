@@ -33,9 +33,9 @@ const Navmenu = (props) => {
             </NavItem>
 
           </Nav>
-          <NavbarText>
+          {/* <NavbarText>
             <NavLink style={{ color: "white" }} className="admin-super" href="/admin">Admin</NavLink>
-          </NavbarText>
+          </NavbarText> */}
         </Collapse>
       </Navbar>
     </div>

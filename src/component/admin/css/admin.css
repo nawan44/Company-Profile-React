@@ -4,16 +4,16 @@ height: auto;
 width: 100%;
 }
 .rule-admin{
-    background-color: darkgray;
-    margin: 20px;
+    /* background-color: grey; */
+    margin: 0 auto;
     width: 100%;
-    padding: 20px;
+    padding: 10px 70px 10px 70px;
 
 }
-.rule-posting{
-    width: 30%;
+/* .rule-posting{
+    width: 100%;
     margin: 0 auto;
-}
+} */
 .rule-posting li{
     text-align: left;
 }
@@ -25,7 +25,7 @@ h1{
 }
 .admin{
     margin-bottom: 50px;
-    width: 60%;
+    width: 70%;
     background-color: darkgray;
     height: auto;
     float: left;

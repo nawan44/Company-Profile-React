@@ -242,7 +242,9 @@ p{
 }
 
 .portfolio-filter {
+    /* background-color: yellow; */
     display: inline-block;
+    width: 100%;
 }
 
 .portfolio-filter #filters {

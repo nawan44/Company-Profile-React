@@ -13,7 +13,7 @@ class Youtube extends React.Component {
                     <hr className="hrred" />
                     <p>Here are some youtube video that we've worked on.</p>
                     <br />
-                    <div className="row content-row">
+                    <div className="row content-row ">
                         <div className="col-lg-12">
                             <div className="portfolio-filter">
                                 <ul id="filters" className="clearfix">
