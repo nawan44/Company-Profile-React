@@ -20,7 +20,8 @@
     width: 200px;
 }
 .iconwe{
-    margin-right: 30px;
+    margin: 30px 30px 0 0;
+    width: 50%;
 }
 section.services {
     padding: 100px 0;

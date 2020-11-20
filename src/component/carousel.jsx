@@ -20,32 +20,43 @@ const items = [
     {
         src: port1,
         altText: 'Slide 1',
-        caption: 'Sponsorship, Media Partner, Events, Digital Campaign, Brand Activities, Sales Leverage'
+        caption: 'Sponsorship, Media Partner, Events, Digital Campaign, Brand Activities, Sales Leverage',
+        brand: 'Berniaga.com, Kacang Garuda,  Hotels for Roadshow, 30 Media partners, in 5 cities, Gala Premiere, Press Screening, Nobar,Meet and Greet, Talkshow, Interview, Road Show'
     },
     {
         src: port2,
         altText: 'Slide 2',
-        caption: 'Sponsorship, Media Partner, Events, Media Placement, Digital Campaign,  Brand Activities, Sales Leverage'
+        caption: 'Sponsorship, Media Partner, Events, Media Placement, Digital Campaign,  Brand Activities, Sales Leverage',
+        brand: 'Yamaha, Pejaten Village, Labels, Restaurants, Clothes, Insurance, 30 Media partners, in 5 cities, Gala Premiere, Press Screening, Nobar,Meet and Greet, Talkshow, Interview, 4 Days Event'
+
     },
     {
         src: port3,
         altText: 'Slide 3',
-        caption: 'Sponsorship, Media Placement, Digital Campaign, Brand Activities, Sales Leverage'
+        caption: 'Sponsorship, Media Placement, Digital Campaign, Brand Activities, Sales Leverage',
+        brand: 'Huawei, Mercy, Jaguar, Metrox, Gala Premiere, Press Screening, Nobar,Meet and Greet, Talkshow, Interview, Roadshow'
+
     },
     {
         src: port4,
         altText: 'Slide 4',
-        caption: 'Sponsorship'
+        caption: 'Sponsorship',
+        brand: 'Berniaga.com, Kacang Garuda,  Hotels for Roadshow'
+
     },
     {
         src: port5,
         altText: 'Slide 5',
-        caption: 'Sponsorship, Media Partner, Events, Media Placement, Digital Campaign, Brand Activities, Sales Leverage'
+        caption: 'Sponsorship, Media Partner, Events, Media Placement, Digital Campaign, Brand Activities, Sales Leverage',
+        brand: 'Ayana Hotel and Resort Bali, Rock Bar, Max One, Citilink, Audi'
+
     },
     {
         src: port6,
         altText: 'Slide 6',
-        caption: 'Sponsorship, Media Partner, Events, Media Placement, Digital Campaign,  Brand Activities, Sales Leverage'
+        caption: 'Sponsorship, Media Partner, Events, Media Placement, Digital Campaign,  Brand Activities, Sales Leverage',
+        brand: ' '
+
     }
 
 ];
@@ -73,18 +84,22 @@ const Carousely = (props) => {
 
     const slides = items.map((item) => {
         return (
-            <CarouselItem
+            <CarouselItem className="carousel-item"
                 onExiting={() => setAnimating(true)}
                 onExited={() => setAnimating(false)}
                 key={item.src}
             >
                 <div className="carousell">
                     <div className="img-carousel">
-                        <img src={item.src} alt={item.altText} class="center" />
+                        <img src={item.src} alt={item.altText} class="img-carousel" />
                     </div>
-                </div>
+                    <CarouselCaption captionHeader={item.caption} className="caption1" />
 
-                <CarouselCaption captionHeader={item.caption} />
+                </div>
+                <hr className="hrred" />
+
+                <CarouselCaption captionHeader={item.brand} className="caption2" />
+
             </CarouselItem>
         );
     });

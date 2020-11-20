@@ -43,9 +43,9 @@ footer.footer .contact-details {
     
 }
 .social {
+    width: 100%;
     margin-bottom: 75px;
     margin: 20px 0 10px 0;
-
 }
 
 .copyright {
@@ -56,5 +56,8 @@ footer.footer .contact-details {
 @media(min-width:1025px) {
     footer.footer {
         background-attachment: fixed;
+    }
+    .contact-details{
+        font-size: 20px;
     }
 }

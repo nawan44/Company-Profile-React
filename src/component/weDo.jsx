@@ -3,6 +3,11 @@ import './css/we-do.css';
 import FileCopyIcon from '@material-ui/icons/FileCopy';
 import CreateIcon from '@material-ui/icons/Create';
 import FlightTakeoffIcon from '@material-ui/icons/FlightTakeoff';
+import gbr1 from './img/wedo/1.png';
+import gbr2 from './img/wedo/2.png';
+import gbr3 from './img/wedo/3.png';
+
+
 
 class WeDo extends React.Component {
     render() {
@@ -21,7 +26,7 @@ class WeDo extends React.Component {
                             <p>
                                 <div className="col-md-4 wow fadeIn" data-wow-delay=".4s">
                                     <div className="media">
-                                        <FileCopyIcon className="iconwe" style={{ fontSize: 50 }} />
+                                        <img src={gbr1} className="iconwe" />
                                         <div className="media-body">
                                             <h3 className="media-heading">1</h3>
                                             <ul>
@@ -36,8 +41,7 @@ class WeDo extends React.Component {
                             <p>
                                 <div className="col-md-4 wow fadeIn" data-wow-delay=".6s">
                                     <div className="media">
-                                        <CreateIcon className="iconwe" style={{ fontSize: 50 }} />
-                                        <div className="media-body">
+                                        <img src={gbr2} className="iconwe" />                                        <div className="media-body">
                                             <h3 className="media-heading">2</h3>
                                             <ul>
                                                 <li className="liwe">Media Placement</li>
@@ -51,7 +55,7 @@ class WeDo extends React.Component {
                             <p>
                                 <div className="col-md-4 wow fadeIn" data-wow-delay=".8s">
                                     <div className="media">
-                                        <FlightTakeoffIcon className="iconwe" style={{ fontSize: 50 }} />
+                                        <img src={gbr3} className="iconwe" />
 
                                         <div className="media-body">
                                             <h3 className="media-heading">3</h3>

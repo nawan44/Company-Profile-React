@@ -13,53 +13,48 @@ class Admin extends React.Component {
                         </h1>
                             <hr className="hr-admin" />
                             <p>
-                                <h2>
-                                    Data Perusahaan
-                                </h2>
-                                <ol>
-                                    <li>Media Sosial berupa link dengan format http://</li>
-                                </ol>
+                                <fieldset class="border p-2">
+                                    <legend class="w-auto"> Data Perusahaan</legend>
+                                    <ol>
+                                        <li>Media Sosial berupa link dengan format http://</li>
+                                    </ol>
+                                </fieldset>
                             </p>
-                            <hr className="hr-admin" />
-
                             <p>
-                                <h2>
-                                    Media Pertner
-                            </h2>
-                                <ol>
-                                    <li>Ukuran Gambar : 80px x 50px</li>
-                                    <li>Format Gambar : .jpg .JPEG .png </li>
-                                </ol>
+                                <fieldset class="border p-2">
+                                    <legend class="w-auto"> Media Pertner</legend>
+                                    <ol>
+                                        <li>Ukuran Gambar : 80px x 50px</li>
+                                        <li>Format Gambar : .jpg .JPEG .png </li>
+                                    </ol>
+                                </fieldset>
                             </p>
+                            <p>
+                                <fieldset class="border p-2">
+                                    <legend class="w-auto"> Portofolio</legend>
 
-                            <hr className="hr-admin" />
-
-                            <p><h2>
-                                Portofolio
-                            </h2>
-                                <ol>
-                                    <li>Ukuran Gambar : 300px x 500px</li>
-                                    <li>Format Gambar : .jpg .JPEG .png </li>
-                                </ol>
+                                    <ol>
+                                        <li>Ukuran Gambar : 300px x 500px</li>
+                                        <li>Format Gambar : .jpg .JPEG .png </li>
+                                    </ol>
+                                </fieldset>
                             </p>
-                            <hr className="hr-admin" />
-
-                            <p><h2>
-                                Youtube
-                            </h2>
-                                <ol>
-                                    <li>Format video berupa Iframe dari Youtube</li>
-                                </ol>
+                            <p>
+                                <fieldset class="border p-2">
+                                    <legend class="w-auto"> Youtube</legend>
+                                    <ol>
+                                        <li>Format video berupa Iframe dari Youtube</li>
+                                    </ol>
+                                </fieldset>
                             </p>
-                            <hr className="hr-admin" />
-
-                            <p><h2>
-                                Logo Client
-                            </h2>
-                                <ol>
-                                    <li>Ukuran Gambar : 80px x 50px</li>
-                                    <li>Format Gambar : .jpg .JPEG .png </li>
-                                </ol>
+                            <p>
+                                <fieldset class="border p-2">
+                                    <legend class="w-auto"> Logo Client</legend>
+                                    <ol>
+                                        <li>Ukuran Gambar : 80px x 50px</li>
+                                        <li>Format Gambar : .jpg .JPEG .png </li>
+                                    </ol>
+                                </fieldset>
                             </p>
                         </div>
                     </div>
