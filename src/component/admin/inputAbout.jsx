@@ -1,6 +1,5 @@
 import React from 'react';
 import './css/input-partner.css';
-import { Table } from 'reactstrap';
 import './css/admin.css';
 import SideBar from './sideBar';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';

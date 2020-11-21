@@ -1,8 +1,5 @@
 import React from 'react';
 import './css/we-do.css';
-import FileCopyIcon from '@material-ui/icons/FileCopy';
-import CreateIcon from '@material-ui/icons/Create';
-import FlightTakeoffIcon from '@material-ui/icons/FlightTakeoff';
 import gbr1 from './img/wedo/1.png';
 import gbr2 from './img/wedo/2.png';
 import gbr3 from './img/wedo/3.png';

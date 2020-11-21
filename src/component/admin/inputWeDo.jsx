@@ -1,9 +1,8 @@
 import React from 'react';
 import './css/input-partner.css';
-import { Table } from 'reactstrap';
 import './css/admin.css';
 import SideBar from './sideBar';
-import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input, Table } from 'reactstrap';
 import we1 from '../img/wedo/create.png';
 import we2 from '../img/wedo/file.png';
 import we3 from '../img/wedo/flight.png';

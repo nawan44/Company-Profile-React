@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {
   NavbarToggler, Collapse, NavbarBrand,
-  Nav, Navbar, NavItem, NavLink, NavbarText
+  Nav, Navbar, NavItem, NavLink
 } from 'reactstrap';
 import './css/navmenu.css';
 import Logo from './img/logo.png';

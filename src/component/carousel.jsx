@@ -13,7 +13,6 @@ import {
     CarouselIndicators,
     CarouselCaption
 } from 'reactstrap';
-import { Table } from 'reactstrap';
 
 
 const items = [
@@ -92,6 +91,7 @@ const Carousely = (props) => {
                 <div className="carousell">
                     <div className="img-carousel">
                         <img src={item.src} alt={item.altText} class="img-carousel" />
+
                     </div>
                     <CarouselCaption captionHeader={item.caption} className="caption1" />
 
@@ -99,7 +99,6 @@ const Carousely = (props) => {
                 <hr className="hrred" />
 
                 <CarouselCaption captionHeader={item.brand} className="caption2" />
-
             </CarouselItem>
         );
     });

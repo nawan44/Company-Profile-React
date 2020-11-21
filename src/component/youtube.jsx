@@ -1,6 +1,5 @@
 import React from 'react';
 import './css/youtube.css';
-import c1 from './img/client-logos/c1.png';
 import { Card, } from 'reactstrap';
 
 

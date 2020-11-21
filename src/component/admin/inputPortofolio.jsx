@@ -1,8 +1,7 @@
 import React from 'react';
 import './css/input-portofolio.css';
-import { Table } from 'reactstrap';
 import SideBar from './sideBar';
-import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input, Table } from 'reactstrap';
 import port1 from '../img/portfolio/port1.jpg';
 import port2 from '../img/portfolio/port2.jpg';
 import port3 from '../img/portfolio/port3.jpg';

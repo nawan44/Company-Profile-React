@@ -1,9 +1,8 @@
 import React from 'react';
 import './css/input-partner.css';
-import { Table } from 'reactstrap';
 import './css/admin.css';
 import SideBar from './sideBar';
-import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input, Table } from 'reactstrap';
 import m1 from '../img/people/1.png';
 import m2 from '../img/people/2.png';
 import m3 from '../img/people/3.png';

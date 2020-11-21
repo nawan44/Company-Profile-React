@@ -1,7 +1,5 @@
 import React from 'react';
-
 import OurClients from './ourClients.jsx';
-
 import Header from './header.jsx';
 import About from './about.jsx';
 import WeDo from './weDo.jsx';
