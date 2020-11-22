@@ -45,7 +45,7 @@ class InputPartner extends React.Component {
                             <tr>
                                 <th scope="row">1</th>
                                 <td className="td-produk">Antv, Kompas Tv, SCTV, Global Tv, Hard Rock FM, Radio Kampus ITB</td>
-                                <td><img src={m1} /></td>
+                                <td><img src={m1} alt=" " /></td>
                                 <td>
                                     <Button className="btn-edit">Edit</Button>
                                     <Button className="btn-delete">Delete</Button>
@@ -55,7 +55,7 @@ class InputPartner extends React.Component {
                             <tr>
                                 <th scope="row">2</th>
                                 <td className="td-produk">rtv, woman radio, mustang FM, Trijaya FM, 99ERS, OZ Radio Jakarta</td>
-                                <td><img src={m2} /></td>
+                                <td><img src={m2} alt=" " /></td>
                                 <td>
                                     <Button className="btn-edit">Edit</Button>
                                     <Button className="btn-delete">Delete</Button>
@@ -64,7 +64,7 @@ class InputPartner extends React.Component {
                             <tr>
                                 <th scope="row">3</th>
                                 <td className="td-produk">106.1FM Gadis, Cosmo Girls, Sindonews, Kapanlagi.com, Kampus Update</td>
-                                <td><img src={m3} /></td>
+                                <td><img src={m3} alt=" " /></td>
                                 <td>
                                     <Button className="btn-edit">Edit</Button>
                                     <Button className="btn-delete">Delete</Button>

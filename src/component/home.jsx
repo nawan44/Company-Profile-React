@@ -6,8 +6,6 @@ import WeDo from './weDo.jsx';
 import Carousely from './carousel.jsx';
 import Youtube from './youtube.jsx';
 import MediaPartner from './mediaPartner.jsx';
-
-
 import Contact from './contact.jsx';
 
 

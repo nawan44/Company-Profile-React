@@ -1,11 +1,16 @@
-.footer{
+.footer {
     padding: 20px;
-    background-image:  url('../img/portfolio/bg-1.jpg') ;
+    background-image: url("../img/portfolio/bg-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
     color: #fff;
     text-align: center;
     bottom: 0;
-    
+
 }
+
 footer.footer {
     padding: 50px 0 20px;
     color: #fff;
@@ -17,7 +22,7 @@ footer.footer {
 }
 
 footer.footer a {
-    color: rgba(255,255,255,.7);
+    color: rgba(255, 255, 255, .7);
 }
 
 footer.footer a:hover {
@@ -27,37 +32,58 @@ footer.footer a:hover {
 footer.footer p {
     font-size: 22px;
 }
+
 footer.footer .contact-details {
     margin: 75px 0;
     padding: 30px;
 
 }
-.contact-details p{
-    width: auto;
+
+.contact-details p a {
+    font-size: 20px;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
 
 }
-.contact-details p a{
-    font-size: 20px;
-    font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fff;
-    
+
+.icon-medsos {
+    width: 30%;
 }
+
 .social {
     width: 100%;
-    margin-bottom: 75px;
-    margin: 20px 0 10px 0;
+    margin: 20px 0 10px;
+}
+
+.contact-details1 {
+    background-color: yellowgreen;
+}
+
+.contact-details a i {
+    margin-left: 40px;
+    padding: 20px;
+}
+
+.footer-text {
+    font-size: 20px;
 }
 
 .copyright {
     font-size: 18px;
-    margin: 20px 0 10px 0;
+    margin: 20px 0 10px;
 }
 
 @media(min-width:1025px) {
     footer.footer {
         background-attachment: fixed;
     }
-    .contact-details{
+
+    .contact-details {
         font-size: 20px;
+    }
+
+    .contact-details a i {
+        padding: 0;
+        margin: 0;
     }
 }

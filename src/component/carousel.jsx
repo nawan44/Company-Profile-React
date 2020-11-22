@@ -90,15 +90,14 @@ const Carousely = (props) => {
             >
                 <div className="carousell">
                     <div className="img-carousel">
-                        <img src={item.src} alt={item.altText} class="img-carousel" />
+                        <img src={item.src} alt={item.altText} class="img-carousel" alt=" " />
 
                     </div>
                     <CarouselCaption captionHeader={item.caption} className="caption1" />
+                    <CarouselCaption captionHeader={item.brand} className="caption2" />
 
                 </div>
-                <hr className="hrred" />
-
-                <CarouselCaption captionHeader={item.brand} className="caption2" />
+                <hr />
             </CarouselItem>
         );
     });

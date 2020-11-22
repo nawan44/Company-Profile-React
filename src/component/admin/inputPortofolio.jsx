@@ -56,7 +56,7 @@ class InputPortofolio extends React.Component {
                                 <td>Malam Minggu Miko Movie</td>
                                 <td>Sponsorship, Media Partner, Events, Digital Campaign, Brands Activities</td>
                                 <td>Berniaga.com Kacang Garuda, Hotels of Roadshow</td>
-                                <td> <img src={port1} /></td>
+                                <td> <img src={port1} alt=" " /></td>
 
                                 <td>
                                     <Button className="btn-edit">Edit</Button>
@@ -69,7 +69,7 @@ class InputPortofolio extends React.Component {
                                 <td>Janji Hati</td>
                                 <td>Sponsorship, Media Partner, Events, Media Placement, Digital Campaign, Brands Activities</td>
                                 <td>Yamaha, Pejaten Village, Labels, Restaurants</td>
-                                <td><img src={port2} /></td>
+                                <td><img src={port2} alt=" " /></td>
 
                                 <td>
                                     <Button className="btn-edit">Edit</Button>
@@ -81,7 +81,7 @@ class InputPortofolio extends React.Component {
                                 <td>Stay With Me</td>
                                 <td>Sponsorship, Media Placement, Digital Campaign, Brands Activities</td>
                                 <td>Huawei, Mercy, Jaguar, Metrox</td>
-                                <td><img src={port3} /></td>
+                                <td><img src={port3} alt=" " /></td>
 
                                 <td>
                                     <Button className="btn-edit">Edit</Button>

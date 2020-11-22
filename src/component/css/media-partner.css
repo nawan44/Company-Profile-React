@@ -1,0 +1,21 @@
+.img-responsive {
+    margin: 0 auto;
+    width: 210px;
+}
+
+.about-carousel {
+    background-color: aliceblue;
+}
+
+.ColMedia {
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media (max-width:767px) {
+    .ColMedia {
+        width: 50%;
+        padding: 10px;
+    }
+}

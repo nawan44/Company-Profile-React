@@ -1,25 +1,11 @@
 .contactus{
     padding: 20px;
 }
-.hrred{
-    border: 2px double red;
-    width: 200px;
-}
-.h1contact{
-    text-align: center;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-}
-
-
 .FormInput {
-   border: none;
-   background: transparent;
    outline: none;
    font-size: 20px;
  }
- 
+
 .btn-full-width {
     width: 100%;
     padding: 50px 0;
@@ -34,10 +20,19 @@
 }
 
 .btn-full-width:hover {
+
     color: #fff;
     background-color: #b41f7a;
 }
 
 .btn-full-width:focus {
     color: #fff;
+}
+.btn-send{
+    font-size: 30px;
+}
+@media (max-width:767px) {
+    .btn-send{
+        font-size: 20px;
+    }
 }

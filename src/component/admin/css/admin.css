@@ -1,29 +1,35 @@
 .container-admin {
-/* background-color: bisque; */
-height: auto;
-width: 100%;
+    /* background-color: bisque; */
+    height: auto;
+    width: 100%;
 }
-.rule-admin{
+
+.rule-admin {
     /* background-color: grey; */
     margin: 0 auto;
     width: 100%;
-    padding: 10px 70px 10px 70px;
+    padding: 10px 70px;
 
 }
-.rule-posting{
+
+.rule-posting {
     width: 100%;
     margin: 0 auto;
 }
-.rule-posting li{
+
+.rule-posting li {
     text-align: left;
 }
-.hr-admin{
+
+.hr-admin {
     border: solid 3px chartreuse;
 }
-h1{
+
+h1 {
     text-align: center;
 }
-.admin{
+
+.admin {
     margin-bottom: 50px;
     width: 70%;
     background-color: darkgray;
@@ -31,73 +37,88 @@ h1{
     float: left;
     padding: 20px;
 }
-.login{
+
+.login {
     background-color: cornflowerblue;
     width: 70%;
-    margin : 0 auto;
+    margin: 0 auto;
     padding: 20px;
- 
+
     margin-bottom: 50px;
 }
-.sidebar{
+
+.sidebar {
     width: 20%;
     float: left;
 }
-.btn-edit{
-background-color: blue;
-margin-right: 10px;
+
+.btn-edit {
+    background-color: blue;
+    margin-right: 10px;
 }
-.btn-delete{
+
+.btn-delete {
     background-color: red;
 }
-.form{
+
+.form {
     padding: 10px;
     background-color: grey;
 
 }
-.input-file{
+
+.input-file {
     width: 70px;
     background-color: gray;
 }
-.btn-input{
-margin-top: 20px;
+
+.btn-input {
+    margin-top: 20px;
 }
-.td-id{
+
+.td-id {
     text-align: center;
     margin: 0 auto;
     font-size: 20px;
 }
-.td-produk{
+
+.td-produk {
     text-align: left;
     margin: 0 auto;
     font-size: 20px;
 }
-.td-youtube{
+
+.td-youtube {
     width: 50px;
 }
-td img{
+
+td img {
     width: 50%;
 }
-.icon-img{
+
+.icon-img {
     width: 20%;
 }
-@media(max-width : 1700px){
+
+@media(max-width : 1700px) {
     .container-admin {
         background-color: red;
         width: 100%;
         height: auto;
         margin: 0 auto;
-        }
-        .admin{
-            width: 100%;
-            background-color: darkgray;
-            height: auto;
-            padding: 20px;
-        }
-        .rule-admin{
-            background-color: grey;
-            margin: 20px;
-            width: 100%;
-            padding: 20px;
-        }
+    }
+
+    .admin {
+        width: 100%;
+        background-color: darkgray;
+        height: auto;
+        padding: 20px;
+    }
+
+    .rule-admin {
+        background-color: grey;
+        margin: 20px;
+        width: 100%;
+        padding: 20px;
+    }
 }

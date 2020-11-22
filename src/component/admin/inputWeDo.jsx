@@ -48,7 +48,7 @@ class InputWeDo extends React.Component {
                                 <td>Marketing Communication
                                 Event Services
                                                     Digital Solution</td>
-                                <td><img className="icon-img" src={we1} /></td>
+                                <td><img className="icon-img" src={we1} alt=" " /></td>
 
                                 <td>
                                     <Button className="btn-edit">Edit</Button>
@@ -61,7 +61,7 @@ class InputWeDo extends React.Component {
                                 <td>Media Placement
                                 Public Relations
                                     Sales Leverage</td>
-                                <td><img className="icon-img" src={we2} /></td>
+                                <td><img className="icon-img" src={we2} alt=" " /></td>
 
                                 <td>
                                     <Button className="btn-edit">Edit</Button>
@@ -73,7 +73,7 @@ class InputWeDo extends React.Component {
                                 <td>Media Activities
                                 Brand Activation
                                     Integrated Film Solution</td>
-                                <td><img className="icon-img" src={we3} /></td>
+                                <td><img className="icon-img" src={we3} alt=" " /></td>
 
                                 <td>
                                     <Button className="btn-edit">Edit</Button>

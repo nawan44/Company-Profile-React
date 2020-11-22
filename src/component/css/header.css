@@ -1,72 +1,92 @@
-.header{
+.header {
     background-image: url('../img/bg-header.jpg');
-    display: block;
-    /* position: relative; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0 auto;
-    width: auto;
+    width: 100%;
     height: auto;
-    padding: 100px 0;
-    background-attachment: scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover; 
+    -o-background-size: cover;
 }
 
-.head{
-    width: 500px;
-    height: 550px;
+.img-center {
+    padding-top: 30px;
+    width: 120%;
     margin: 0 auto;
-    padding: 20px;
+    text-align: center;
+
+}
+
+.brand {
+    margin: 0 auto;
+    text-align: center;
 }
 
 .img-container {
     text-align: center;
     display: block;
-  }
+}
 
 .colored {
-    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2 0px;
+    margin-bottom: 20px;
+    width: 500px;
     border-color: #ef4035;
 }
-.arrow{
+
+.arrow {
     width: 150px;
     height: 150px;
     margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
     padding-bottom: 20px;
 }
-.arrowDown{
+
+.arrowDown {
     padding-bottom: 50px;
 }
+
 .brand-name {
+    margin: 0 auto;
     text-align: center;
     margin-top: 15px;
-    font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 35px;
-    font-weight: 900;
+    font-weight: 500;
     line-height: 55px;
     color: #fff;
 }
 
 .brand-name-subtext {
+    margin: 0 auto;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 20px;
     font-weight: 300;
     line-height: 20px;
     color: #fff;
-
 }
+
 .brand-name {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
+
 .scroll-down {
     position: absolute;
     bottom: 20px;
     width: 100%;
     text-align: center;
 }
+
 .scroll-down .btn {
     width: 50px;
     height: 50px;
@@ -82,11 +102,22 @@
     transition: all .5s;
 }
 
- .scroll-down .btn:hover {
-    border-color: rgba(255,255,255,.5);
+.scroll-down .btn:hover {
+    border-color: rgba(255, 255, 255, .5);
     outline: 0;
-    color: rgba(255,255,255,.5);
+    color: rgba(255, 255, 255, .5);
 }
+
+@media (max-width:767px) {
+    .img-center {
+        padding-top: 30px;
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+}
+
 @media(min-width:768px) {
     .header {
         width: 100%;
@@ -94,6 +125,7 @@
         padding: 0;
         background-attachment: scroll;
     }
+
     .header img {
         max-height: 300px;
         max-width: 300px;
@@ -119,7 +151,7 @@
 
 @media (min-width: 768px) and (max-width : 1024px) {
     .header .brand-name {
-    font-size: 50px!important;
-    line-height: 50px;
+        font-size: 50px !important;
+        line-height: 50px;
     }
-    }
+}

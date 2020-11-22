@@ -1,30 +1,3 @@
-p{
-    text-align: center;
-}
-.content-row {
-    margin-top: 30px;
-}
-.about-carousel .item {
-    padding: 15px;
-}
-.h1clients{
-    text-align: center;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-}
-.about-carousel .item .caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    margin: auto;
-    padding: 15px;
-    color: rgba(255,255,255,.7);
-    -webkit-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-}
 .services {
     padding: 100px 0;
     color: #fff;
@@ -35,18 +8,26 @@ p{
     background-size: cover;
     -o-background-size: cover;
 }
-.item {
-    padding: 50px 55px;
-    text-align: center;
-    background: no-repeat center center scroll;
-    background-color: #222;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-.img-responsive{
-    float: left;
-    width: 30%;
+
+.img-responsive {
+    margin: 0 auto;
+    width: 210px;
 }
 
+.ColClient {
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.h1clients {
+    width: 100%;
+    font-style: bold;
+}
+
+@media (max-width:767px) {
+    .ColClient {
+        width: 50%;
+        padding: 10px;
+    }
+}

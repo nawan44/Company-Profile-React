@@ -14,11 +14,10 @@ const Navmenu = (props) => {
   return (
     <div className="Nav">
       <Navbar light expand="md" className="Navbar">
-        <NavbarBrand href="/" ><img src={Logo} /></NavbarBrand>
+        <NavbarBrand href="/" ><img src={Logo} alt=" " /></NavbarBrand>
         <NavbarToggler onClick={toggle} className="mr-2 bg-white" />
         <Collapse isOpen={isOpen} navbar style={{ color: "white" }}>
           <Nav className="mr-auto" navbar>
-
             <NavItem>
               <NavLink style={{ color: "white" }} href="#about">About</NavLink>
             </NavItem>
@@ -31,7 +30,6 @@ const Navmenu = (props) => {
             <NavItem>
               <NavLink style={{ color: "white" }} href="#contact">Contact</NavLink>
             </NavItem>
-
           </Nav>
           {/* <NavbarText>
             <NavLink style={{ color: "white" }} className="admin-super" href="/admin">Admin</NavLink>

@@ -8,21 +8,17 @@ class Contact extends React.Component {
             <div id="contact">
                 <Form className="contactus">
                     <FormGroup>
-                        <h1 className="h1contact" >CONTACT US</h1>
-                        <hr className="hrred" />
-                        <p >Please tell us about your next project and we will let you know what we can do to help you.</p>
+                        <h1 >CONTACT US</h1>
+                        <hr />
+                        <h5 >Please tell us about your next project and we will let you know what we can do to help you.</h5>
                         <br />
                         <p><Input className="FormInput" type="text" placeholder="Name" /></p>
-                        <hr />
                         <p><Input className="FormInput" type="text" placeholder="Email Address" /></p>
-                        <hr />
                         <p><Input className="FormInput" type="text" placeholder="Phone Number" /></p>
-                        <hr />
                         <p><Input className="FormInput" type="textarea" placeholder="Message" /></p>
-                        <hr />
-                        <Button color="info" block>Send</Button>
+                        <Button color="info" className="btn-send" block>Send
+                        </Button>
                     </FormGroup>
-
                 </Form>
                 <a href="#contact" class="btn btn-block btn-full-width">Let's Discuss!</a>
 

@@ -1,20 +1,32 @@
-.h1about{
-    text-align: center;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+#about {
+  margin: 30px 0;
+  width: 100%;
 }
-p.content{
-    font-size: 19px;
-    line-height: 1.8em;
-    text-align: center;
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  margin: 0 auto;
 }
-.about-content {
-    padding: 30px;
+
+h4 {
+  text-align: center;
+  margin: 20px auto;
 
 }
-h5{
-    font-style: normal;
-    text-align: center;
-    
+
+h5 {
+  text-align: center;
+  margin: 0 auto 30px;
+}
+
+hr {
+  border: 2px double red;
+  width: 500px;
+  z-index: 999;
+  margin: 20px auto 30px;
+
 }

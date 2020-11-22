@@ -44,7 +44,7 @@ class InputClient extends React.Component {
                             <tr>
                                 <th scope="row">1</th>
                                 <td className="td-produk">EU Indonesia Business Network, Jaguar, Land Rover, The Stones</td>
-                                <td><img src={c1} /></td>
+                                <td><img src={c1} alt=" " /></td>
                                 <td>
                                     <Button className="btn-edit">Edit</Button>
                                     <Button className="btn-delete">Delete</Button>
@@ -54,7 +54,7 @@ class InputClient extends React.Component {
                             <tr>
                                 <th scope="row">2</th>
                                 <td className="td-produk">Appeton, Huawei, L'Oreal</td>
-                                <td><img src={c2} /></td>
+                                <td><img src={c2} alt=" " /></td>
                                 <td>
                                     <Button className="btn-edit">Edit</Button>
                                     <Button className="btn-delete">Delete</Button>
@@ -63,7 +63,7 @@ class InputClient extends React.Component {
                             <tr>
                                 <th scope="row">3</th>
                                 <td className="td-produk">glow Rumah Terindah</td>
-                                <td><img src={c3} /></td>
+                                <td><img src={c3} alt=" " /></td>
                                 <td>
                                     <Button className="btn-edit">Edit</Button>
                                     <Button className="btn-delete">Delete</Button>

@@ -1,91 +1,70 @@
-.hrred{
-    border: 2px double red;
-    width: 200px;
-}
-.h1wedo{
-    text-align: center;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-}
-.liwe{
-    text-align: left;
-    font-size: 20px;
-}
-.media-heading{
-    text-align: left;
-}
-.hrred{
-    border: 2px double red;
-    width: 200px;
-}
-.iconwe{
-    margin: 30px 30px 0 0;
-    width: 50%;
-}
-section.services {
-    padding: 100px 0;
-    color: #fff;
-    background: no-repeat center center scroll;
-    background-color: #222;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+#services {
     background-image: url('../img/portfolio/bg-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    width: 100%;
 }
-.services .media {
+
+.h1wedo {
+    color: #fff;
+}
+
+.h4wedo {
+    color: #fff;
     margin-bottom: 30px;
 }
 
-.services .media i.fa {
-    width: 75px;
-    height: 75px;
-    border: 3px solid #fff;
-    border-radius: 100%;
-    text-align: center;
+.col-img {
+    width: 30%;
+    padding-left: 30px;
+}
+
+.col-li {
+    width: 70%;
+}
+
+.h3wedo {
+    text-align: left;
+    color: #fff;
+    margin-bottom: 30px;
+    margin-left: 10px;
     font-size: 30px;
-    line-height: 70px;
 }
 
-.services .media .media-body {
-    padding-left: 15px;
-    min-width: none;
+.iconwe {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+
 }
 
-.services .media .media-body h3 {
-    margin-bottom: 15px;
+.liwe {
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
 }
 
-.services .media .media-body ul {
-    padding: 0;
-    list-style: inside;
+.row-wedo {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
 }
 
-.services .media .media-body ul li {
-    margin-bottom: 10px;
-}
+@media (max-width:767px) {
+    .iconwe {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
 
-@media(min-width:390px) {
-    .services .media .media-body {
-        min-width: 260px;
     }
-}
 
-@media(min-width:992px) {
-    .services .media .media-body {
-        min-width: 193px;
-    }
-}
-
-@media(min-width:1199px) {
-    .services .media .media-body {
-        min-width: 260px;
-    }
-}
-
-@media(min-width:992px) {
-    .services .media {
-        margin-bottom: 0;
+    .liwe {
+        color: #fff;
+        text-align: left;
+        font-size: 15px;
     }
 }
