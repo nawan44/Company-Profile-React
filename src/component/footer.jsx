@@ -7,7 +7,7 @@ class Footer extends React.Component {
         return (
             <div className="footer" >
                 <Container >
-                    <Row>
+                    <Row xs="3" className="social">
                         <Col xs="6" sm="4" className="contact-details">
                             <h4>
                                 <svg width="2em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

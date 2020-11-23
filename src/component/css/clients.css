@@ -26,6 +26,10 @@
 }
 
 @media (max-width:767px) {
+    .services {
+        padding: 10px;
+    }
+
     .col-client {
         width: 50%;
         padding: 10px;

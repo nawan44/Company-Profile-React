@@ -31,10 +31,10 @@ hr {
 
 }
 
-@media (max-width:300px) {
+@media (max-width:500px) {
   hr {
     border: 2px double red;
-    width: 80%;
+    width: 60%;
     z-index: 999;
     margin: 20px auto 30px;
 

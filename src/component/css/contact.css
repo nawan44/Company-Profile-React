@@ -22,7 +22,7 @@
 
 .btn-full-width:hover {
 
-    color: #fff;
+    color: rgb(216, 196, 196);
     background-color: #b41f7a;
 }
 
@@ -40,4 +40,8 @@
     }
 }
 
-@media (max-width:700px) {}
+@media (max-width:300px) {
+    .contact {
+        padding: 10px;
+    }
+}

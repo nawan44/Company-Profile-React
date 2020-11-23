@@ -88,4 +88,8 @@ footer.footer .contact-details {
     }
 }
 
-/* @media (max-width:300px) {} */
+@media (max-width:300px) {
+    .social {
+        width: 50%;
+    }
+}

@@ -18,6 +18,10 @@
         width: 50%;
         padding: 10px;
     }
+
+    .services {
+        padding: 10px;
+    }
 }
 
 @media (max-width:300px) {
