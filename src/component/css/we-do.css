@@ -68,3 +68,14 @@
         font-size: 15px;
     }
 }
+
+@media (max-width:300px) {
+    .iconwe {
+        width: 30%;
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+
+    }
+
+}

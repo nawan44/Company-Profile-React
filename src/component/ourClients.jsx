@@ -23,19 +23,19 @@ class OurClients extends React.Component {
                          </h5>
                     </Row>
                     <Row>
-                        <Col className="ColClient">
+                        <Col className="col-client">
                             <img src={c1} className="img-responsive" alt=" " />
                         </Col>
-                        <Col className="ColClient">
+                        <Col className="col-client">
                             <img src={c2} className="img-responsive" alt=" " />
                         </Col>
-                        <Col className="ColClient">
+                        <Col className="col-client">
                             <img src={c3} className="img-responsive" alt=" " />
                         </Col>
-                        <Col className="ColClient">
+                        <Col className="col-client">
                             <img src={c4} className="img-responsive" alt=" " />
                         </Col>
-                        <Col className="ColClient">
+                        <Col className="col-client">
                             <img src={c5} className="img-responsive" alt=" " />
                         </Col>
                     </Row>

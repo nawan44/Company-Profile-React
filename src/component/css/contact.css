@@ -1,10 +1,11 @@
-.contactus{
+.contactus {
     padding: 20px;
 }
+
 .FormInput {
-   outline: none;
-   font-size: 20px;
- }
+    outline: none;
+    font-size: 20px;
+}
 
 .btn-full-width {
     width: 100%;
@@ -28,11 +29,15 @@
 .btn-full-width:focus {
     color: #fff;
 }
-.btn-send{
+
+.btn-send {
     font-size: 30px;
 }
+
 @media (max-width:767px) {
-    .btn-send{
+    .btn-send {
         font-size: 20px;
     }
 }
+
+@media (max-width:700px) {}

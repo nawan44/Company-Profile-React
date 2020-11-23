@@ -30,3 +30,19 @@ hr {
   margin: 20px auto 30px;
 
 }
+
+@media (max-width:300px) {
+  hr {
+    border: 2px double red;
+    width: 80%;
+    z-index: 999;
+    margin: 20px auto 30px;
+
+
+  }
+
+  #about {
+    padding: 10px;
+    width: 100%;
+  }
+}

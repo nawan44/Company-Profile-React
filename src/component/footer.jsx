@@ -35,27 +35,19 @@ class Footer extends React.Component {
                     </Row>
                     <Row xs="3" className="social">
                         <Col xs="6" sm="4" >
+                            <a href="https://facebook.com">
+                                <i class="fa fa-facebook-square" style={{ fontSize: "60px", float: "right" }}>
+                                </i> </a>
                         </Col>
-                        <Col xs="6" sm="4">
-                            <Row xs="3" >
-                                <Col xs="6" sm="4" >
-                                    <a href="https://facebook.com">
-                                        <i class="fa fa-facebook-square" style={{ fontSize: "60px" }}>
-                                        </i> </a>
-                                </Col>
-                                <Col xs="6" sm="4" >
-                                    <a href="https://instagram.com">
-                                        <i class="fa fa-instagram" style={{ fontSize: "60px" }}></i>
-                                    </a>
-                                </Col>
-                                <Col sm="4" >
-                                    <a href="https://linkedin.com">
-                                        <i class="fa fa-linkedin-square" style={{ fontSize: "60px" }}></i>
-                                    </a>
-                                </Col>
-                            </Row>
+                        <Col xs="6" sm="4" >
+                            <a href="https://instagram.com">
+                                <i class="fa fa-instagram" style={{ fontSize: "60px" }}></i>
+                            </a>
                         </Col>
-                        <Col sm="4" className="contact-details">
+                        <Col sm="4" >
+                            <a href="https://linkedin.com">
+                                <i class="fa fa-linkedin-square" style={{ fontSize: "60px", float: "left" }}></i>
+                            </a>
                         </Col>
                     </Row>
                     <Row>

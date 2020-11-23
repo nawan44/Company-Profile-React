@@ -14,7 +14,7 @@
     width: 210px;
 }
 
-.ColClient {
+.col-client {
     width: 25%;
     padding: 10px;
     margin: 10px;
@@ -26,8 +26,18 @@
 }
 
 @media (max-width:767px) {
-    .ColClient {
+    .col-client {
         width: 50%;
         padding: 10px;
+    }
+}
+
+@media (max-width:300px) {
+    .services {
+        padding: 10px;
+    }
+
+    .col-client {
+        width: 50%;
     }
 }

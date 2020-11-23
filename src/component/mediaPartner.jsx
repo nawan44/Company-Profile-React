@@ -22,10 +22,10 @@ class MediaPartner extends React.Component {
                             </h5>
                     </Row>
                     <Row>
-                        <Col className="ColMedia"> <img src={media1} className="img-responsive" alt=" " /></Col>
-                        <Col className="ColMedia"> <img src={media2} className="img-responsive" alt=" " /></Col>
-                        <Col className="ColMedia"> <img src={media3} className="img-responsive" alt=" " /></Col>
-                        <Col className="ColMedia"> <img src={media4} className="img-responsive" alt=" " /></Col>
+                        <Col className="col-media"> <img src={media1} className="img-responsive" alt=" " /></Col>
+                        <Col className="col-media"> <img src={media2} className="img-responsive" alt=" " /></Col>
+                        <Col className="col-media"> <img src={media3} className="img-responsive" alt=" " /></Col>
+                        <Col className="col-media"> <img src={media4} className="img-responsive" alt=" " /></Col>
                     </Row>
                 </Container>
             </div >
