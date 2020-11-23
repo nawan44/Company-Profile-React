@@ -16,7 +16,9 @@ class OurClients extends React.Component {
                     <Row>
                         <h1 className="h1clients" >OUR CLIENTS</h1>
                     </Row>
-                    <hr />
+                    <Row>
+                        <hr />
+                    </Row>
                     <Row>
                         <h5 >
                             Here are some our clients that we've worked on :

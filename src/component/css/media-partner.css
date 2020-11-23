@@ -15,7 +15,7 @@
 
 @media (max-width:767px) {
     .col-media {
-        width: 50%;
+        width: 40%;
         padding: 10px;
     }
 
@@ -30,6 +30,6 @@
     }
 
     .col-media {
-        width: 50%;
+        width: 40%;
     }
 }

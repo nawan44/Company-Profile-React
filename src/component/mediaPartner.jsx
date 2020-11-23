@@ -15,7 +15,9 @@ class MediaPartner extends React.Component {
                     <Row>
                         <h1 >Media Partner</h1>
                     </Row>
-                    <hr />
+                    <Row>
+                        <hr />
+                    </Row>
                     <Row>
                         <h5>
                             We are using a Digital Marketing Strategy, WOM on communities and coperation with some Media Partner from :
