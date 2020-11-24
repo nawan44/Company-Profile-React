@@ -79,10 +79,12 @@ footer.footer .contact-details {
     }
 
     .contact-details {
+        text-align: center;
         font-size: 20px;
     }
 
     .contact-details a i {
+        text-align: center;
         padding: 0;
         margin: 0;
     }
@@ -91,5 +93,16 @@ footer.footer .contact-details {
 @media (max-width:300px) {
     .social {
         width: 50%;
+    }
+
+    .contact-details {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .contact-details a i {
+        text-align: center;
+        padding: 0;
+        margin: 0;
     }
 }

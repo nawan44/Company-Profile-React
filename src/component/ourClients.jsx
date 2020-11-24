@@ -11,10 +11,10 @@ import { Container, Row, Col } from 'reactstrap';
 class OurClients extends React.Component {
     render() {
         return (
-            <div className="services ">
+            <div className="clients ">
                 <Container>
                     <Row>
-                        <h1 className="h1clients" >OUR CLIENTS</h1>
+                        <h1 >OUR CLIENTS</h1>
                     </Row>
                     <Row>
                         <hr />

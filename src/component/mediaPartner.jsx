@@ -10,7 +10,7 @@ import { Container, Row, Col } from 'reactstrap';
 class MediaPartner extends React.Component {
     render() {
         return (
-            <div className="services">
+            <div className="media-partner">
                 <Container>
                     <Row>
                         <h1 >Media Partner</h1>

@@ -1,5 +1,5 @@
-.services {
-    padding: 100px 0;
+.clients {
+    padding: 30px;
     color: #fff;
     background: no-repeat center center scroll;
     background-color: #222;
@@ -20,28 +20,32 @@
     margin: 10px;
 }
 
-.h1clients {
-    width: 100%;
-    font-style: bold;
-}
 
 @media (max-width:767px) {
+    .clients {
+        padding: 20px;
+    }
+
     .services {
         padding: 10px;
     }
 
     .col-client {
-        width: 40%;
+        width: 35%;
         padding: 10px;
     }
 }
 
 @media (max-width:300px) {
+    .clients {
+        padding: 10px;
+    }
+
     .services {
         padding: 10px;
     }
 
     .col-client {
-        width: 40%;
+        width: 35%;
     }
 }
