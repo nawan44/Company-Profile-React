@@ -83,6 +83,11 @@ footer.footer .contact-details {
         font-size: 20px;
     }
 
+    .social col {
+        width: 30%;
+        background-color: yellow;
+    }
+
     .contact-details a i {
         text-align: center;
         padding: 0;
@@ -93,6 +98,12 @@ footer.footer .contact-details {
 @media (max-width:300px) {
     .social {
         width: 50%;
+    }
+
+    .social col {
+        width: 30%;
+        background-color: yellow;
+
     }
 
     .contact-details {

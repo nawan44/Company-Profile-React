@@ -23,11 +23,9 @@
 
 @media (max-width:767px) {
     .clients {
+        height: auto;
+        width: 100%;
         padding: 20px;
-    }
-
-    .services {
-        padding: 10px;
     }
 
     .col-client {
@@ -38,14 +36,14 @@
 
 @media (max-width:300px) {
     .clients {
-        padding: 10px;
-    }
-
-    .services {
-        padding: 10px;
+        height: auto;
+        width: 100%;
+        padding: 15px;
     }
 
     .col-client {
+        background-color: aqua;
+
         width: 35%;
     }
 }
