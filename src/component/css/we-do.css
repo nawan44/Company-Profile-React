@@ -55,16 +55,15 @@
 
 @media (max-width:767px) {
     .iconwe {
-        width: 30%;
+        width: 50px;
         margin: 0 auto;
         margin-top: 40px;
         text-align: center;
         background-color: yellow;
-
     }
 
     .col-li {
-        width: 70%;
+        width: 50%;
     }
 
     .liwe {
@@ -76,7 +75,7 @@
 
 @media (max-width:300px) {
     .iconwe {
-        width: 30%;
+        width: 50px;
         background-color: yellow;
 
         margin: 0 auto;
@@ -86,6 +85,6 @@
     }
 
     .col-li {
-        width: 70%;
+        width: 50%;
     }
 }

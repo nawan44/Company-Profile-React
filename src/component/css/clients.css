@@ -28,8 +28,8 @@
         padding: 20px;
     }
 
-    .col-client {
-        width: 35%;
+    .col-client img {
+        width: 150px;
         padding: 10px;
     }
 }
@@ -41,9 +41,9 @@
         padding: 15px;
     }
 
-    .col-client {
+    .col-client img {
         background-color: aqua;
 
-        width: 35%;
+        width: 50px;
     }
 }

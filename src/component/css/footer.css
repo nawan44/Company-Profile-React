@@ -100,8 +100,8 @@ footer.footer .contact-details {
         width: 50%;
     }
 
-    .social col {
-        width: 30%;
+    .social col i {
+        width: 30px;
         background-color: yellow;
 
     }

@@ -34,8 +34,25 @@
 
     }
 
-    .col-media {
-        width: 35%;
+    .col-media img {
+        width: 150px;
+        padding: 10px;
+    }
+
+
+}
+
+@media (max-width:1200px) {
+    .media-partner {
+        padding: 20px;
+        background-color: #222;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .col-media img {
+        width: 100%;
         padding: 10px;
     }
 
@@ -50,8 +67,8 @@
         height: auto;
     }
 
-    .col-media {
-        width: 35%;
+    .col-media img {
+        width: 100%;
         background-color: aqua;
     }
 }
