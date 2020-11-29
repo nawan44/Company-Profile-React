@@ -1,0 +1,119 @@
+.footer {
+    padding: 20px;
+    background-image: url("../img/portfolio/bg-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+
+}
+
+footer.footer {
+    padding: 50px 0 20px;
+    color: #fff;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer.footer a {
+    color: rgba(255, 255, 255, .7);
+}
+
+footer.footer a:hover {
+    color: #fff;
+}
+
+footer.footer p {
+    font-size: 22px;
+}
+
+footer.footer .contact-details {
+    margin: 75px 0;
+    padding: 30px;
+
+}
+
+.contact-details p a {
+    font-size: 20px;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+
+}
+
+.icon-medsos {
+    width: 30%;
+}
+
+.social {
+    width: 100%;
+    margin: 20px 0 10px;
+}
+
+.social col a i {
+    width: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.footer-text {
+    font-size: 20px;
+}
+
+.copyright {
+    font-size: 18px;
+    margin: 20px 0 10px;
+}
+
+/* @media(min-width:1025px) {
+    footer.footer {
+        background-attachment: fixed;
+    }
+
+    .contact-details {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .social col {
+        width: 30%;
+        background-color: yellow;
+    }
+
+
+} */
+
+@media (max-width:300px) {
+    .social {
+        width: 100%;
+
+    }
+
+    .social {
+        width: 30px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .social a i {
+        width: 30px;
+        text-align: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .contact-details {
+        text-align: center;
+        font-size: 15px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+}

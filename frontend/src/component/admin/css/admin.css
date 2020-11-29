@@ -1,0 +1,135 @@
+.container-admin {
+    /* background-color: bisque; */
+    height: auto;
+    width: 100%;
+}
+
+.rule-admin {
+    /* background-color: grey; */
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 70px;
+
+}
+
+.logo-admin {
+    padding-top: 30px;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.rule-posting {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.rule-posting li {
+    text-align: left;
+}
+
+.hr-admin {
+    border: solid 3px chartreuse;
+}
+
+h1 {
+    text-align: center;
+}
+
+.admin {
+    margin-bottom: 50px;
+    width: 70%;
+    text-align: center;
+    background-color: darkgray;
+    height: auto;
+    float: left;
+    padding: 20px;
+}
+
+.login {
+    background-color: cornflowerblue;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+
+    margin-bottom: 50px;
+}
+
+.sidebar {
+    width: 20%;
+    float: left;
+}
+
+.btn-edit {
+    background-color: blue;
+    margin-right: 10px;
+}
+
+.btn-delete {
+    background-color: red;
+}
+
+.form {
+    padding: 10px;
+    background-color: grey;
+
+}
+
+.input-file {
+    width: 70px;
+    background-color: gray;
+}
+
+.btn-input {
+    margin-top: 20px;
+}
+
+.td-id {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.td-produk {
+    text-align: left;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.td-youtube {
+    width: 50px;
+}
+
+td img {
+    width: 50%;
+}
+
+.icon-img {
+    width: 20%;
+}
+
+@media(max-width : 1700px) {
+    .container-admin {
+        background-color: red;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .admin {
+        width: 100%;
+        background-color: darkgray;
+        height: auto;
+        padding: 20px;
+    }
+
+    .rule-admin {
+        background-color: grey;
+        margin: 20px;
+        width: 100%;
+        padding: 20px;
+    }
+}

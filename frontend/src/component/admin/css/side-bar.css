@@ -1,0 +1,46 @@
+
+.sidebar{
+    width: 20%;
+    height: auto;
+}
+.sidebar ul{
+    list-style: none;
+    padding: 30px;
+    margin: 0;
+    width: 350px;
+}
+.sidebar li{
+    height: 50px;
+
+}
+.sidebar li a{
+    display: block;
+    /* background-color: blueviolet; */
+    padding: 10px;
+    text-align: left;
+    color: violet;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.sidebar li a:hover{
+    text-align:right;
+    background: #fffc00; 
+    background: -webkit-linear-gradient(to right, #fffc00, #ffffff); 
+    background: linear-gradient(to right, #fffc00, #ffffff);   
+    color: black;
+}
+@media(max-width : 1700px){
+    .sidebar{
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+    .sidebar ul{
+        list-style: none;
+        padding: 30px;
+        margin: 0;
+        width: 100%;
+    }
+
+}

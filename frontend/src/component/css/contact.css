@@ -1,0 +1,47 @@
+.contactus {
+    padding: 20px;
+}
+
+.FormInput {
+    outline: none;
+    font-size: 20px;
+}
+
+.btn-full-width {
+    width: 100%;
+    padding: 50px 0;
+    border: 0;
+    border-radius: 0;
+    text-transform: none;
+    font-size: 26px;
+    font-weight: 200;
+    letter-spacing: normal;
+    color: #fff;
+    background-color: #222;
+}
+
+.btn-full-width:hover {
+
+    color: rgb(216, 196, 196);
+    background-color: #b41f7a;
+}
+
+.btn-full-width:focus {
+    color: #fff;
+}
+
+.btn-send {
+    font-size: 30px;
+}
+
+@media (max-width:767px) {
+    .btn-send {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:300px) {
+    .contact {
+        padding: 10px;
+    }
+}
